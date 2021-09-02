@@ -1,0 +1,429 @@
+/* Police de la page*/
+
+@font-face {
+    font-family: "Raleway";
+    src: url(Raleway/Raleway-Regular.ttf) format ('truetype');
+    font-family: "Raleway_bold";
+    src: url(Raleway/Raleway-Bold.ttf) format('truetype');
+}
+
+p { 
+    font-family: 'Raleway', arial, sans-serif; 
+}
+
+h2, h3 {
+    font-family: 'Raleway', arial, sans-serif; 
+}
+
+/* En tête de la page*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px ;
+    margin-top: 15px;
+}
+
+nav a:hover {
+    color:  #0065fc;
+    padding-top: 30px;
+    border-top: 2px solid #0065FC;
+}
+nav a {
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+/* Partie recherche */
+
+#Recherche {
+   display: flex;
+   align-items: center;
+    
+
+}
+
+#map {
+    width: 30px;
+    padding-left: 20px;
+    border: 2px #F2F2F2 solid;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+#Marseille_France {
+    padding-left: 10px;
+    padding-right: 4%;
+    border: 1px #F2F2F2 solid;
+    border-right: none;
+
+}
+
+#Rechercher {
+    background-color: #0065fc;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+
+/* Partie filtres */
+
+#filtres {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 300px;
+}
+
+#money{
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+}
+
+#economique {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    border:2px #F2F2F2 solid;
+    border-left: hidden;
+    border-radius: 30px;
+}
+
+#enfant {
+    margin-right: 20px;
+    padding: 20px 24px 20px 24px;
+    border: 2px;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+}
+
+#Familial {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    border:2px #F2F2F2 solid;
+    border-left: hidden;
+    border-radius: 30px;
+}
+
+#coeur {
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+}
+
+#Romantique {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    border:2px #F2F2F2 solid;
+    border-left: hidden;
+    border-radius: 30px;
+}
+
+#chien {
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+}
+
+#Animaux {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    border:2px #F2F2F2 solid;
+    border-left: hidden;
+    border-radius: 30px;
+}
+
+
+
+#informations {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+#logo_i {
+    color: white;
+    background-color: #0065fc;
+    border: 2px  #F2F2F2 solid;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+#test {
+    display: flex;
+}
+
+
+
+
+/* Partie hébergement*/
+
+#Hebergements_Marseille {
+    background-color:#F2F2F2;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    height: 700px;
+    width: 900px;
+
+}
+
+.Titre2 {
+    margin-left: 20px;
+    padding-top: 20px 
+}
+
+
+.Image1 {
+    height: 140px;
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#Image_haut {
+    display: flex;
+}
+
+.Image_haut2 {
+    border: 4px white solid;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+
+
+#Image_bas {
+    display:flex;
+}
+
+.Image_bas2 {
+    border: 4px white solid;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.Afficher_plus {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 33px;
+}
+
+
+
+
+
+
+.texte1 {
+    margin-left: 10px;
+    line-height: 1.4em;
+
+}
+
+#etoile_bleu {
+    color: #0065FC;
+}
+
+#etoile_grise {
+    color: #F2F2F2;
+}
+
+#gras {
+
+    font-family: "Raleway_bold";
+}
+
+.gras {
+    font-family: "Raleway_bold";
+}
+
+
+/* Les plus populaires*/
+
+aside {
+    background-color: #F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+    height: 700px;
+}
+
+#Plus_populaires {
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.Image2 {
+    float: left;
+    height: 110px;
+    width: 100px;
+    border-radius: 20px 0px 0px 20px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.Image_pop {
+    border: 4px white solid;
+    width: 300px;
+    height: 110px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+/* Activités à Marseille*/
+
+
+#Image_haut2 {
+    display: flex;
+
+
+}
+
+
+.Image3 {
+    height: 400px;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Vieux_port {
+    border: 1px black solid;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.Fort_P {
+    height: 200px;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Fort_pomegues {
+    border: 1px black solid;
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.Frioul {
+    height: 200px;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Iles_frioul {
+    border: 1px black solid;
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.Parc_national_calanques {
+    border: 1px black solid;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+} 
+
+.Image4 {
+    height: 200px;
+    width: 280px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Notre_dame {
+    border: 1px black solid;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.Parc_longchamp {
+    border: 1px black solid;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+
+
+
+
+/* Bas de page*/
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    background-color:#F2F2F2;
+}
+
+#A_propos {
+    margin-left: 30px;
+}
+
+#Assistance {
+    margin-right: 30%;
+}
+
+
