@@ -12,25 +12,35 @@ p {
 }
 
 h2, h3 {
-    font-family: 'Raleway', arial, sans-serif; 
+    font-family: 'Raleway_bold', arial, sans-serif; 
 }
+
 
 /* En tête de la page*/
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+}
+
+#Logo_reservia {
+    margin-left: 20px;
+}
+
+img {
+    width: 100px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
+    margin-left: 700px;
 }
 
 nav li {
     margin-right: 30px ;
     margin-top: 15px;
+
 }
 
 nav a:hover {
@@ -45,13 +55,25 @@ nav a {
     text-decoration: none;
 }
 
+#inscrire {
+    font-family: "Raleway_bold";
+    color: #0065FC;
+    margin-right: 40px;
+    margin-top: 34px;
+}
+
+#Slogan {
+    margin-left: 20px;
+    line-height: 0.8em;
+    margin-bottom: 20px;
+}
 /* Partie recherche */
+
 
 #Recherche {
    display: flex;
    align-items: center;
-    
-
+   margin-left: 20px;
 }
 
 #map {
@@ -88,9 +110,11 @@ nav a {
 #filtres {
     display: flex;
     margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 20px;
     justify-content: space-between;
     align-items: center;
-    margin-right: 300px;
+
 }
 
 #money{
@@ -176,6 +200,7 @@ nav a {
     border: 2px  #F2F2F2 solid;
     border-radius: 20px;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 #test {
@@ -191,20 +216,22 @@ nav a {
     background-color:#F2F2F2;
     margin-bottom: 30px;
     border-radius: 20px;
-    height: 700px;
-    width: 900px;
+    height: 640px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 20px;
 
 }
 
 .Titre2 {
-    margin-left: 20px;
+    margin-left: 30px;
     padding-top: 20px 
 }
 
 
 .Image1 {
-    height: 140px;
-    width: 250px;
+    height: 100px;
+    width: 220px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -216,10 +243,11 @@ nav a {
 
 .Image_haut2 {
     border: 4px white solid;
-    width: 250px;
+    width: 220px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+
 }
 
 
@@ -230,11 +258,12 @@ nav a {
 
 .Image_bas2 {
     border: 4px white solid;
-    width: 250px;
+    width: 220px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
     margin-top: 30px;
+    box-shadow: 6px 6px 0px #F2F2F2;
 }
 
 
@@ -277,9 +306,26 @@ nav a {
 
 aside {
     background-color: #F2F2F2;
-    border-radius: 20px 0px 0px 20px;
-    height: 700px;
+    border-radius: 20px;
+    width: 385px;
+    height: 640px;
+    margin-top: 20px;
 }
+
+.Titre_pop {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#Logo_chart {
+    margin-left: 55px;
+}
+#knd {
+    display: flex;
+    align-items: center;
+}
+
 
 #Plus_populaires {
     display: flex;
@@ -289,8 +335,8 @@ aside {
 
 .Image2 {
     float: left;
-    height: 110px;
-    width: 100px;
+    height: 130px;
+    width: 110px;
     border-radius: 20px 0px 0px 20px;
     overflow: hidden;
     object-fit: cover;
@@ -299,15 +345,29 @@ aside {
 
 .Image_pop {
     border: 4px white solid;
-    width: 300px;
-    height: 110px;
+    width: 310px;
+    height: 130px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
+.texte_pop {
+    margin-top: 10px;
+    margin-left: 130px;
+    line-height: 1.4em;
+}
+
+#etoile_bleu2 {
+    color: #0065FC;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#etoile_grise2 {
+    color: #F2F2F2;
+}
 
 
 
@@ -316,16 +376,23 @@ aside {
 
 /* Activités à Marseille*/
 
+#Act_Marseille {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
 
-#Image_haut2 {
+#Image_act {
     display: flex;
+}
 
-
+.Texte_act {
+    font-family: 'Raleway_bold', arial, sans-serif; 
+    margin-left: 20px;
 }
 
 
 .Image3 {
-    height: 400px;
+    height: 355px;
     width: 280px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
@@ -333,15 +400,15 @@ aside {
 }
 
 .Vieux_port {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Fort_P {
-    height: 200px;
+    height: 150px;
     width: 280px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
@@ -349,16 +416,16 @@ aside {
 }
 
 .Fort_pomegues {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
-    height: 250px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Frioul {
-    height: 200px;
+    height: 123px;
     width: 280px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
@@ -366,24 +433,26 @@ aside {
 }
 
 .Iles_frioul {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
-    height: 250px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Parc_national_calanques {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 } 
 
 .Image4 {
-    height: 200px;
+    height: 137px;
     width: 280px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
@@ -391,19 +460,22 @@ aside {
 }
 
 .Notre_dame {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Parc_longchamp {
-    border: 1px black solid;
+    border: 1px #F2F2F2 solid;
     width: 280px;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 
