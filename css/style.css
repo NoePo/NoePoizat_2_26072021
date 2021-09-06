@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url(Raleway/Raleway-Regular.ttf) format ('truetype');
+    src: url('Raleway/Raleway-Regular.ttf') format('truetype');
     font-family: "Raleway_bold";
-    src: url(Raleway/Raleway-Bold.ttf) format('truetype');
+    src: url('Raleway/Raleway-Bold.ttf') format('truetype');
 }
 
 p { 
@@ -15,6 +15,10 @@ h2, h3 {
     font-family: 'Raleway_bold', arial, sans-serif; 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* En tête de la page*/
 
@@ -31,42 +35,57 @@ img {
     width: 100px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    margin-left: 700px;
-}
-
-nav li {
-    margin-right: 30px ;
-    margin-top: 15px;
-
-}
-
-nav a:hover {
-    color:  #0065fc;
-    padding-top: 30px;
-    border-top: 2px solid #0065FC;
-}
-nav a {
-    font-size: 1.3em;
-    color: #181818;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
-#inscrire {
-    font-family: "Raleway_bold";
-    color: #0065FC;
-    margin-right: 40px;
-    margin-top: 34px;
-}
-
 #Slogan {
     margin-left: 20px;
     line-height: 0.8em;
     margin-bottom: 20px;
 }
+
+
+/* Partie navigation */
+
+#navigation {
+   display: flex;
+   margin-left: 700px;
+   margin-top: 30px;
+}
+
+#navigation2 {
+    display: none;
+}
+
+
+.Heber:hover {
+    color: #0065FC;
+    padding-top: 30px;
+    border-top: 2px solid #0065FC;
+}
+
+.Act:hover {
+    color: #0065FC;
+    padding-top: 30px;
+    border-top: 2px solid #0065FC;
+}
+
+.Act {
+    margin-left:40px;
+}
+
+
+#Inscrire {
+    font-family: "Raleway_bold";
+    color: #0065FC;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 42px;
+}
+
+#Inscrire2 {
+    display: none;
+}
+
+
+
 /* Partie recherche */
 
 
@@ -78,34 +97,82 @@ nav a {
 
 #map {
     width: 30px;
-    padding-left: 20px;
+    height: 18px;
+    margin-top: 1px;
     border: 2px #F2F2F2 solid;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     background-color: #F2F2F2;
 }
 
-#Marseille_France {
-    padding-left: 10px;
-    padding-right: 4%;
+.Marseille_France {
+    margin-top: 2px;
+    padding-top: 2px;
     border: 1px #F2F2F2 solid;
     border-right: none;
-
 }
 
-#Rechercher {
+input {
+    border: none;
+    margin-left: 10px;
+}
+
+::placeholder {
+    font-family: "Raleway_bold";
+    color:black;
+    opacity: 1;
+}
+
+.Rechercher {
     background-color: #0065fc;
     color: white;
+    height: 36px;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 18px;
 }
+
+#Rechercher1 {
+    background-color: #0065fc;
+    color: white;
+    height: 36px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    padding-top: 18px;
+    display: none;
+}
+
+
 
 
 
 /* Partie filtres */
+
+
+#Economique:hover {
+    background-color: #0065FC
+}
+
+#Familial:hover {
+    background-color: #0065FC
+}
+
+#Romantique:hover {
+    background-color: #0065FC;
+}
+
+#Animaux:hover {
+    background-color: #0065FC;
+}
+
+#Eco_F {
+    display: flex;
+}
 
 #filtres {
     display: flex;
@@ -114,7 +181,10 @@ nav a {
     margin-left: 20px;
     justify-content: space-between;
     align-items: center;
+}
 
+.filtres1 {
+    font-family: "Raleway_bold";
 }
 
 #money{
@@ -125,7 +195,7 @@ nav a {
     border-radius: 50%;
 }
 
-#economique {
+#Economique {
     display: flex;
     align-items: center;
     padding-right: 30px;
@@ -145,6 +215,7 @@ nav a {
 #Familial {
     display: flex;
     align-items: center;
+    margin-left: 10px;
     padding-right: 30px;
     border:2px #F2F2F2 solid;
     border-left: hidden;
@@ -203,14 +274,14 @@ nav a {
     margin-left: 20px;
 }
 
-#test {
+#Hebergement_pop {
     display: flex;
 }
 
 
 
 
-/* Partie hébergement*/
+/* Partie hébergements*/
 
 #Hebergements_Marseille {
     background-color:#F2F2F2;
@@ -223,7 +294,7 @@ nav a {
 
 }
 
-.Titre2 {
+#Titre2 {
     margin-left: 30px;
     padding-top: 20px 
 }
@@ -251,7 +322,6 @@ nav a {
 }
 
 
-
 #Image_bas {
     display:flex;
 }
@@ -266,15 +336,11 @@ nav a {
     box-shadow: 6px 6px 0px #F2F2F2;
 }
 
-
 .Afficher_plus {
     font-weight: bold;
     margin-top: 40px;
     margin-left: 33px;
 }
-
-
-
 
 
 
@@ -284,18 +350,15 @@ nav a {
 
 }
 
-#etoile_bleu {
+.etoile_bleu {
     color: #0065FC;
 }
 
-#etoile_grise {
+.etoile_grise {
     color: #F2F2F2;
 }
 
-#gras {
 
-    font-family: "Raleway_bold";
-}
 
 .gras {
     font-family: "Raleway_bold";
@@ -321,7 +384,8 @@ aside {
 #Logo_chart {
     margin-left: 55px;
 }
-#knd {
+
+#Titre_logo {
     display: flex;
     align-items: center;
 }
@@ -359,18 +423,15 @@ aside {
     line-height: 1.4em;
 }
 
-#etoile_bleu2 {
+.etoile_bleu2 {
     color: #0065FC;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-#etoile_grise2 {
+.etoile_grise2 {
     color: #F2F2F2;
 }
-
-
-
 
 
 
@@ -480,8 +541,6 @@ aside {
 
 
 
-
-
 /* Bas de page*/
 
 footer {
@@ -495,7 +554,287 @@ footer {
 }
 
 #Assistance {
-    margin-right: 30%;
+    margin-right: 25%;
 }
+
+
+@media screen and (max-width:1024px)
+{
+
+#Bloc_page {
+    width:auto; 
+
+}
+
+#filtres {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Hebergement_pop {
+    flex-direction: column-reverse;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* En tête de la page téléphone */
+
+#Logo_reservia {
+    margin-left: 40px;
+}
+
+.slogan1 {
+    line-height: 1.2em;
+    margin-left: 20px;
+}
+
+.slogan2 {
+    margin-left: 20px;
+}
+
+header {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#Inscrire {
+    display: none;
+}
+
+#Inscrire2 {
+    display: flex;
+    font-family: "Raleway_bold";
+    color: #0065FC;
+    margin-left: 30%;
+}
+
+
+/* Partie navigation téléphone */
+
+#navigation {
+    display: none;
+}
+
+#navigation2 {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.Heber2:hover {
+    color: #0065FC;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0065FC;
+}
+
+.Act2:hover {
+    color: #0065FC;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0065FC;
+}
+
+.Heber2 {
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+/* Partie recherche téléphone*/
+
+
+#map {
+    margin-left: 20px;
+}
+
+.Rechercher {
+    display: none;
+}
+
+#Rechercher1 {
+    display: flex;
+}
+
+ 
+/* Partie filtres téléphone*/
+
+#filtres {
+    margin-left: 20px;
+}
+
+.filtres1 {
+    font-family: "Raleway_bold";
+    margin-left: 20px;
+}
+    
+
+#Eco_F {
+    display: flex;
+}
+
+#Economique {
+    margin-left: 20px;
+}
+
+#Romantique {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#Animaux {
+    margin-left: 20px;
+    width: 230px;
+}
+
+
+#informations {
+    margin-left: 20px;
+}
+
+
+
+/* Partie les plus populaires téléphone*/
+
+aside {
+    border-radius: 0px;
+}
+
+/* Partie hébergement téléphone*/
+
+#Hebergements_Marseille {
+    height: 1500px;
+    background-color: white;
+}
+
+#Image_haut {
+    flex-direction: column;
+}
+
+#Image_bas {
+    flex-direction: column;
+}
+
+.Image1 {
+    width: 310px;
+}
+
+.Image_haut2 {
+    width: 310px;
+    box-shadow: 0px 0px 6px 6px #F2F2F2;
+    margin-top: 15px;
+}
+
+.Image_bas2 {
+    width: 310px;
+    box-shadow: 0px 0px 6px 6px #F2F2F2;
+    margin-top: 15px;
+}
+
+
+/* Activités à Marseille téléphone */
+
+
+h2 {
+    margin-left: 30px;
+}
+
+.Fort_P {
+    height: 100px;
+    width: 310px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Frioul {
+    height: 100px;
+    width: 310px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Image3 {
+    height: 100px;
+    width: 310px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Image4 {
+    height: 100px;
+    width: 310px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.Vieux_port {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width: 310px;
+}
+
+.Iles_frioul {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 310px;
+}
+
+.Notre_dame {
+    margin-top: 15px;
+    width: 310px;
+}
+
+.Parc_longchamp {
+    margin-top: 15px;
+    width: 310px;
+}
+
+.Fort_pomegues {
+    width: 310px;
+}
+
+.Parc_national_calanques {
+    width: 310px;
+}
+
+#Image_act {
+    flex-direction: column;
+}
+
+
+/* Bas de page téléphone */
+
+footer {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Nos_hébergements {
+    padding-left: 30px;
+}
+
+#Assistance {
+    padding-left: 30px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
