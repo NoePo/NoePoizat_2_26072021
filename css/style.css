@@ -48,7 +48,7 @@ img {
 #navigation {
    display: flex;
    margin-left: 700px;
-   margin-top: 30px;
+
 }
 
 #navigation2 {
@@ -70,6 +70,13 @@ img {
 
 .Act {
     margin-left:40px;
+    padding-top: 30px;
+    border-top: 2px solid transparent ;
+}
+
+.Heber {
+    padding-top: 30px;
+    border-top: 2px solid transparent ;
 }
 
 
@@ -79,7 +86,7 @@ img {
     color: #0065FC;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 42px;
+    margin-top: 46px;
 }
 
 #Inscrire2 {
@@ -625,32 +632,33 @@ header {
 
 #navigation2 {
     display: flex;
-    padding-bottom: 51px;
-    border-bottom: 2px solid #F2F2F2;
 }
 
 .Heber2:hover {
     color: #0065FC;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #0065FC;
-    width: 50%;
 }
 
 .Act2:hover {
     color: #0065FC;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #0065FC;
-    width: 50%;
 }
 
 .Heber2 {
-    position: absolute ;
-    margin-left: 60px;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F2F2F2;
 }
 
 .Act2 {
-    position: absolute;
-    margin-left: 250px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    width: 50%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F2F2F2;
 }
 
 /* Partie recherche téléphone*/
