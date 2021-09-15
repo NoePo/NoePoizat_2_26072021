@@ -25,6 +25,7 @@ a {
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #Logo_reservia {
@@ -32,7 +33,7 @@ header {
 }
 
 img {
-    width: 100px;
+    width: 120px;
 }
 
 #Slogan {
@@ -47,7 +48,6 @@ img {
 
 #navigation {
    display: flex;
-   margin-left: 700px;
 
 }
 
@@ -84,9 +84,9 @@ img {
 #Inscrire {
     font-family: "Raleway_bold";
     color: #0065FC;
-    margin-left: 40px;
     margin-right: 40px;
-    margin-top: 46px;
+    margin-top: 32px;
+    padding-left: 30px;
 }
 
 #Inscrire2 {
@@ -186,11 +186,10 @@ input {
 #filtres {
     display: flex;
     margin-top: 30px;
-    margin-right: 300px;
     margin-left: 20px;
-    justify-content: space-between;
     align-items: center;
 }
+
 
 .filtres1 {
     font-family: "Raleway_bold";
@@ -207,6 +206,7 @@ input {
 #Economique {
     display: flex;
     align-items: center;
+    margin-left: 30px;
     padding-right: 30px;
     border:2px #F2F2F2 solid;
     border-left: hidden;
@@ -224,7 +224,7 @@ input {
 #Familial {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
     padding-right: 30px;
     border:2px #F2F2F2 solid;
     border-left: hidden;
@@ -242,6 +242,7 @@ input {
 #Romantique {
     display: flex;
     align-items: center;
+    margin-left: 20px;
     padding-right: 30px;
     border:2px #F2F2F2 solid;
     border-left: hidden;
@@ -260,6 +261,7 @@ input {
     display: flex;
     align-items: center;
     padding-right: 30px;
+    margin-left: 20px;
     border:2px #F2F2F2 solid;
     border-left: hidden;
     border-radius: 30px;
@@ -292,13 +294,13 @@ input {
 
 /* Partie hébergements*/
 
+
 #Hebergements_Marseille {
     background-color:#F2F2F2;
     margin-bottom: 30px;
     border-radius: 20px;
     height: 640px;
-    width: 800px;
-    margin-left: 20px;
+    width: 66%;
     margin-top: 20px;
 
 }
@@ -311,7 +313,7 @@ input {
 
 .Image1 {
     height: 100px;
-    width: 220px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -323,7 +325,7 @@ input {
 
 .Image_haut2 {
     border: 4px white solid;
-    width: 220px;
+    width: 28%;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
@@ -337,7 +339,7 @@ input {
 
 .Image_bas2 {
     border: 4px white solid;
-    width: 220px;
+    width: 28%;
     border-radius: 20px;
     background-color: white;
     margin-left: 30px;
@@ -379,9 +381,9 @@ input {
 aside {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 385px;
     height: 640px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .Titre_pop {
@@ -391,25 +393,26 @@ aside {
 }
 
 #Logo_chart {
-    margin-left: 55px;
+    margin-right: 20px;
 }
 
 #Titre_logo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 
 #Plus_populaires {
     display: flex;
     margin-left: 30px;
-
+    width: 33%;
 }
 
 .Image2 {
     float: left;
     height: 130px;
-    width: 110px;
+    width: 35%;
     border-radius: 20px 0px 0px 20px;
     overflow: hidden;
     object-fit: cover;
@@ -418,7 +421,7 @@ aside {
 
 .Image_pop {
     border: 4px white solid;
-    width: 310px;
+    width: 85%;
     height: 130px;
     border-radius: 20px;
     background-color: white;
@@ -428,7 +431,7 @@ aside {
 
 .texte_pop {
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 40%;
     line-height: 1.4em;
 }
 
@@ -446,13 +449,20 @@ aside {
 
 /* Activités à Marseille*/
 
-#Act_Marseille {
-    margin-bottom: 50px;
-    margin-left: 20px;
+#Aside {
+    width: 100%;
 }
 
-#Image_act {
+#Act_Marseille {
     display: flex;
+    margin-bottom: 50px;
+}
+
+
+#Image_act {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Texte_act {
@@ -460,10 +470,27 @@ aside {
     margin-left: 20px;
 }
 
+#Ancre2 {
+    margin-left: 3%;
+}
+
+#Pomegues_frioul {
+    display: flex;
+    width: 22%;
+    flex-direction: column;
+    
+}
+
+#Dame_longchamp {
+    display: flex;
+    width: 22%;
+    flex-direction: column;
+}
+
 
 .Image3 {
-    height: 355px;
-    width: 280px;
+    height: 280px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -471,15 +498,15 @@ aside {
 
 .Vieux_port {
     border: 1px #F2F2F2 solid;
-    width: 280px;
+    width: 22%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Fort_P {
-    height: 150px;
-    width: 280px;
+    height: 110px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -487,16 +514,14 @@ aside {
 
 .Fort_pomegues {
     border: 1px #F2F2F2 solid;
-    width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Frioul {
-    height: 123px;
-    width: 280px;
+    height: 90px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -504,26 +529,23 @@ aside {
 
 .Iles_frioul {
     border: 1px #F2F2F2 solid;
-    width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
     margin-top: 30px;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Parc_national_calanques {
     border: 1px #F2F2F2 solid;
-    width: 280px;
+    width: 22%;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
     box-shadow: 6px 6px 6px #F2F2F2;
 } 
 
 .Image4 {
-    height: 137px;
-    width: 280px;
+    height: 100px;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -531,19 +553,15 @@ aside {
 
 .Notre_dame {
     border: 1px #F2F2F2 solid;
-    width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
 
 .Parc_longchamp {
     border: 1px #F2F2F2 solid;
-    width: 280px;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30px;
     margin-top: 30px;
     box-shadow: 6px 6px 6px #F2F2F2;
 }
@@ -568,11 +586,11 @@ footer {
 
 
 @media screen and (max-width:1024px)
-{
 
+{
 #Bloc_page {
     width:auto; 
-align-items: center;
+    align-items: center;
 
 }
 
@@ -611,6 +629,9 @@ article {
 header {
     display: flex;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #Inscrire {
@@ -633,6 +654,9 @@ header {
 
 #navigation2 {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .Heber2:hover {
@@ -666,6 +690,11 @@ header {
 
 /* Partie recherche téléphone*/
 
+#Slogan {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 .slogan1 {
     margin-top: 40px;
@@ -683,11 +712,19 @@ header {
     display: flex;
 }
 
+#Recherche {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
  
 /* Partie filtres téléphone*/
 
 #filtres {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .filtres1 {
@@ -719,6 +756,7 @@ header {
 #informations {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 
@@ -729,8 +767,13 @@ aside {
     border-radius: 0px;
 }
 
+.Image_pop {
+    width: 80%;
+}
+
 #Plus_populaires {
     display: flex;
+    width: auto;
 }
 
 /* Partie hébergement téléphone*/
@@ -738,12 +781,22 @@ aside {
 #Hebergements_Marseille {
     height: 1500px;
     background-color: white;
+    width: 100%;
 }
 
-article {
+Aside {
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
+
+
+Article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 #Image_haut {
     flex-direction: column;
@@ -753,18 +806,20 @@ article {
     flex-direction: column;
 }
 
-.Image1 {
-    width: 310px;
+#Titre2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 .Image_haut2 {
-    width: 310px;
+    width: 80%;
     box-shadow: 0px 0px 6px 6px #F2F2F2;
     margin-top: 15px;
 }
 
 .Image_bas2 {
-    width: 310px;
+    width: 80%;
     box-shadow: 0px 0px 6px 6px #F2F2F2;
     margin-top: 15px;
 }
@@ -779,7 +834,6 @@ h2 {
 
 .Fort_P {
     height: 100px;
-    width: 310px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -787,7 +841,6 @@ h2 {
 
 .Frioul {
     height: 100px;
-    width: 310px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -795,7 +848,6 @@ h2 {
 
 .Image3 {
     height: 100px;
-    width: 310px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -803,40 +855,46 @@ h2 {
 
 .Image4 {
     height: 100px;
-    width: 310px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
 }
 
+#Pomegues_frioul {
+    width: 80%;
+}
+
+#Dame_longchamp {
+    width: 80%;
+}
+
 .Vieux_port {
-    margin-left: 30px;
     margin-bottom: 15px;
-    width: 310px;
+    width: 80%;
 }
 
 .Iles_frioul {
     margin-bottom: 15px;
     margin-top: 15px;
-    width: 310px;
+    width: 100%;
 }
 
 .Notre_dame {
     margin-top: 15px;
-    width: 310px;
+    width: 100%;
 }
 
 .Parc_longchamp {
     margin-top: 15px;
-    width: 310px;
+    width: 100%;
 }
 
 .Fort_pomegues {
-    width: 310px;
+    width: 100%;
 }
 
 .Parc_national_calanques {
-    width: 310px;
+    width: 80%;
 }
 
 #Image_act {
@@ -849,6 +907,9 @@ h2 {
 footer {
     flex-direction: column;
     align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #Nos_hébergements {
@@ -858,7 +919,6 @@ footer {
 #Assistance {
     padding-left: 30px;
 }
-
 
 }
 
