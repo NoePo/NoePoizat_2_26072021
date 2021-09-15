@@ -778,6 +778,7 @@ aside {
 
 /* Partie hébergement téléphone*/
 
+
 #Hebergements_Marseille {
     height: 1500px;
     background-color: white;
@@ -792,9 +793,7 @@ Aside {
 
 
 Article {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -809,52 +808,66 @@ Article {
 #Titre2 {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 40%;
 }
 
 .Image_haut2 {
-    width: 80%;
     box-shadow: 0px 0px 6px 6px #F2F2F2;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .Image_bas2 {
-    width: 80%;
     box-shadow: 0px 0px 6px 6px #F2F2F2;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.Afficher_plus {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 
 /* Activités à Marseille téléphone */
 
-
+#Act_Marseille {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 h2 {
     margin-left: 30px;
 }
 
 .Fort_P {
-    height: 100px;
+    height: 120px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
 }
 
 .Frioul {
-    height: 100px;
+    height: 120px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
 }
 
 .Image3 {
-    height: 100px;
+    height: 120px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
 }
 
 .Image4 {
-    height: 100px;
+    height: 120px;
     border-radius: 20px 20px 0px 0px;
     overflow: hidden;
     object-fit: cover;
@@ -870,35 +883,36 @@ h2 {
 
 .Vieux_port {
     margin-bottom: 15px;
-    width: 80%;
+    width: 96%;
 }
 
 .Iles_frioul {
     margin-bottom: 15px;
     margin-top: 15px;
-    width: 100%;
+    width: 120%;
 }
 
 .Notre_dame {
     margin-top: 15px;
-    width: 100%;
+    width: 120%;
 }
 
 .Parc_longchamp {
     margin-top: 15px;
-    width: 100%;
+    width: 120%;
 }
 
 .Fort_pomegues {
-    width: 100%;
+    width: 120%;
 }
 
 .Parc_national_calanques {
-    width: 80%;
+    width: 96%;
 }
 
 #Image_act {
     flex-direction: column;
+    width: 100%;
 }
 
 
