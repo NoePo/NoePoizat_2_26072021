@@ -456,6 +456,11 @@ aside {
 #Act_Marseille {
     display: flex;
     margin-bottom: 50px;
+    
+}
+
+article {
+    width: 100%;
 }
 
 
@@ -583,6 +588,9 @@ footer {
 #Assistance {
     margin-right: 25%;
 }
+
+
+
 
 
 @media screen and (max-width:1024px)
@@ -789,11 +797,6 @@ Aside {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
-
-
-Article {
-    width: 100%;
 }
 
 
